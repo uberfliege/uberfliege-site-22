@@ -1,0 +1,106 @@
+.nav {
+  margin-left: 200px;
+  position: absolute;
+  z-index: 4;
+}
+.sphinx {
+  z-index: -2;
+  position: absolute;
+  margin-top: 172px;
+  margin-left: 725px;
+}
+.fly {
+  margin-top: 140px;
+  margin-left: 720px;
+  z-index: 8;
+  position: absolute;
+}
+.uberfliege {
+  margin-top: 75px;
+  margin-left: 580px;
+  transform: rotate(-41 0deg);
+  z-index: -1;
+  position: absolute;
+}
+.folio {
+  text-decoration: none;
+  color: white;
+  font-size: 1.25em;
+  z-index: 1;
+  margin-left: 320px;
+
+  margin-top: 102px;
+  position: absolute;
+}
+
+.folio:hover {
+  color: rgb(0, 0, 0);
+}
+
+.swag {
+  text-decoration: none;
+  color: white;
+  font-size: 1.25em;
+  z-index: 2;
+  position: absolute;
+  margin-left: 330px;
+  margin-top: 140px;
+  transform: rotate(-5deg);
+}
+.swag:hover {
+  color: rgb(0, 0, 0);
+}
+.contact {
+  text-decoration: none;
+  color: white;
+  font-size: 1.25em;
+  z-index: 3;
+  position: absolute;
+  margin-left: 300px;
+  margin-top: 175px;
+  transform: rotate(-8deg);
+}
+.contact:hover {
+  color: rgb(0, 0, 0);
+}
+.links {
+  text-decoration: none;
+  color: white;
+  font-size: 1.25em;
+  z-index: 4;
+  position: absolute;
+  margin-left: 350px;
+  margin-top: 140px;
+  transform: rotate(8deg);
+}
+.links:hover {
+  color: black;
+}
+.id {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 1.25em;
+  z-index: 5;
+  position: absolute;
+  margin-left: 295px;
+  margin-top: 40px;
+}
+.id:hover {
+  color: rgb(255, 255, 255);
+}
+.id2 {
+  margin-left: 250px;
+  font-size: 28em;
+  z-index: -3;
+  color: black;
+  position: absolute;
+  margin-top: -920px;
+  opacity: 5%;
+}
+
+body {
+  overflow: hidden;
+  font-family: "american captain";
+  font-size: 2em;
+  color: white;
+}

@@ -1,0 +1,129 @@
+.uberfliege {
+  margin-top: 75px;
+  margin-left: 580px;
+  transform: rotate(-41 0deg);
+  z-index: -2;
+  position: absolute;
+  animation-direction: normal;
+  animation: slidein 0.1s linear; /* animation set */
+  animation-play-state: running; /* put paused */
+  animation-iteration-count: 2;
+  animation-timing-function: cubic-bezier(0.5, -1, 0.5, 0);
+}
+
+.folio {
+  animation-direction: normal;
+  text-decoration: none;
+  color: white;
+  font-size: 1.25em;
+  z-index: 1;
+  margin-left: 300px;
+  margin-top: 153px;
+  position: absolute;
+  transform: rotate(-15deg);
+  animation-direction: normal;
+  animation: slidein 0.3s linear; /* animation set */
+  animation-play-state: running; /* put paused */
+  animation-iteration-count: 1.5;
+  animation-timing-function: cubic-bezier(0.5, -1, 0.5, 0);
+}
+
+.folio:hover {
+  color: rgb(0, 0, 0);
+}
+@keyframes slidein {
+  /* keyframes of animation */
+  to {
+    transform: translate(200px, 100%);
+  }
+}
+
+.swag {
+  text-decoration: none;
+  color: white;
+  font-size: 1.25em;
+  z-index: 2;
+  position: absolute;
+  margin-left: 330px;
+  margin-top: 140px;
+  transform: rotate(-5deg);
+  animation-direction: normal;
+  animation: slidein 0.1s linear; /* animation set */
+  animation-play-state: running; /* put paused */
+  animation-iteration-count: 1.5;
+  animation-timing-function: cubic-bezier(0.5, -1, 0.5, 0);
+}
+.swag:hover {
+  color: rgb(0, 0, 0);
+}
+.contact {
+  text-decoration: none;
+  color: white;
+  font-size: 1.25em;
+  z-index: 3;
+  position: absolute;
+  margin-left: 300px;
+  margin-top: 175px;
+  transform: rotate(-8deg);
+  animation-direction: normal;
+  animation: slidein 0.1s linear; /* animation set */
+  animation-play-state: running; /* put paused */
+  animation-iteration-count: 3;
+  animation-timing-function: cubic-bezier(0.5, -1, 0.5, 0);
+}
+.contact:hover {
+  color: rgb(0, 0, 0);
+}
+.links {
+  text-decoration: none;
+  color: white;
+  font-size: 1.25em;
+  z-index: 4;
+  position: absolute;
+  margin-left: 360px;
+  margin-top: 140px;
+  transform: rotate(8deg);
+  animation-direction: normal;
+  animation: slidein 0.1s linear; /* animation set */
+  animation-play-state: running; /* put paused */
+  animation-iteration-count: 1;
+  animation-timing-function: cubic-bezier(0.5, -3, 0.5, 0);
+}
+.links:hover {
+  color: black;
+}
+.id {
+  text-decoration: none;
+  color: white;
+  font-size: 1.25em;
+  z-index: 5;
+  position: absolute;
+  margin-left: 350px;
+  margin-top: 190px;
+  animation-direction: normal;
+  animation: slidein 0.1s linear; /* animation set */
+  animation-play-state: running; /* put paused */
+  animation-iteration-count: 2;
+  animation-timing-function: cubic-bezier(0.5, -1, 0.5, 0);
+}
+.id:hover {
+  color: rgb(0, 0, 0);
+}
+.shirt {
+  text-align: center;
+  z-index: -3;
+  margin-left: 200px;
+  padding-right: 200px;
+  position: absolute;
+  animation-direction: normal;
+  animation: slidein 0.2s linear; /* animation set */
+  animation-play-state: running; /* put paused */
+  animation-iteration-count: 1.5;
+  animation-timing-function: cubic-bezier(0.5, -1, 0.5, 0);
+}
+body {
+  overflow: hidden;
+  font-family: "american captain";
+  font-size: 2em;
+  color: white;
+}
